@@ -1,0 +1,10 @@
+The system shall allow users to parameterize the generation algorithm to regulate the complexity of the generated SQL-query and the selection of SQL-keywords in the generation process.
+
+\textit{Complexity} is an ambiguous concept whose concrete definition is dependent on the context domain. Complexity science can be seen as the \textit{study of the phenomena which emerge from a collection of interacting objects} \cite{johnson2007two}. Applying this definition to SQL-queries, the complexity of a generated SQL-query can be defined as being governed by the following three criteria:
+\begin{enumerate}
+ \item The number of distinct SQL-keywords that occur in the generated SQL-query.
+ \item The number of occurrences of a specific SQL-keyword in a generated SQL-query.
+ \item The number of arguments a specific SQL-keyword receives.
+ \end{enumerate}
+
+To ensure syntactically correct SQL-queries, the keywords \textit{SELECT} and \textit{FROM} are required to occur exactly once, with at least one argument each. The lower and upper bounds regarding the number of arguments for the remaining keywords must be determined dynamically depending on the database schema.

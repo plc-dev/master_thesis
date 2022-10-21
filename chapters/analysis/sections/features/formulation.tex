@@ -1,0 +1,27 @@
+For each generated SQL-query, the system shall formulate a description in human-like natural language of the corresponding result set.
+
+The exercise description shall consist of a depiction of the underlying database schema and a description of the result set.
+
+What makes machine-generated text \textit{human-like} differs depending on the domain and task and the task-dependent evaluation of this property often lacks concrete specifications \cite{Lee2021HumanEO, VANDERLEE2021101151}. Thus for the particular task of generating descriptions of SQL-queries, the following criteria determine the property of human-like:
+\begin{enumerate}
+
+ \item Conciseness
+ \begin{enumerate}
+    \item Length of text, for which shorter is better.
+    \item Information aggregation, for which less explicit phrasing is better.
+ \end{enumerate}
+ 
+ \item Correctness
+ \begin{enumerate}
+    \item Missing information, where less is better.
+    \item Spelling mistakes, where less are better.
+    \item Grammar mistakes, where less are better.
+ \end{enumerate}
+ 
+ \item Style
+ 
+\end{enumerate}
+
+
+% that describes the task of replicating a query whose execution leads to the same result set
+

@@ -1,0 +1,80 @@
+\chapter{Design and Implementation of a System for the Generation of Meaningful SQL-Query Exercises}
+\label{ch:des}
+
+\section{Overview of a System for the Generation of Meaningful SQL-Query Exercises}
+\label{sec:des:overview}
+\input{chapters/design/sections/overview}
+
+\section{Deriving a Relational Database from a Knowledge Graph}
+\label{sec:des:semantic}
+
+\subsection{Deriving a Relational Schema from Entities and Concepts of the Knowledge Graph}
+\label{sec:des:schema}
+\input{chapters/design/sections/deriving}
+
+\subsection{Inferring Cardinalities from the Entity and Concept Instances of the Knowledge Graph}
+\label{sec:des:cardinaltiy}
+
+\subsection{Ingesting Entity- and Concept-Instances into the Relational Database}
+\label{sec:des:ingestion}
+
+\subsection{Limitations of Commonsense Knowledge Graphs Regarding the Semantic Enrichment of Relational Databases}
+\label{sec:des:limits}
+
+\section{Semantically Enriching a Relational Database with a Knowledge Graph}
+\label{sec:des:semantic}
+
+\subsection{Normalizing the Relational Database to Satisfy Domain Constraints and Cardinality Restrictions}
+\label{sec:des:normal}
+
+\subsection{Knowledge Graph Entities for Semantic Labeling of Tables}
+\label{sec:des:entities}
+
+\subsection{Mapping Tables and Foreign Key Constraints of a Relational Schema to Knowledge Graph Entities}
+\label{sec:des:mapping}
+
+\subsection{Resolving Implicit Information by Imposing Directionality of Foreign Key Constraints and Junction Tables}
+\label{sec:des:resolving}
+
+
+
+\section{Generation of Meaningful SQL-Query Exercises}
+\label{sec:des:generation}
+
+\subsection{Parameter Space of the Generation Algorithm}
+\label{sec:des:parameters}
+In order to formulate
+
+
+\subsection{Traversing the Relational Schema as a Graph of Tables and Foreign Key Constraints}
+\label{sec:des:traversal}
+
+\subsection{Generation of Random Parameter-Compliant SQL-Queries}
+\label{sec:des:algorithm}
+
+\subsection{Construction of Solution Assessment Functions}
+\label{sec:des:assessment}
+
+
+\section{Generation of an SQL-Query Exercise Formulation in Natural Language}
+\label{sec:des:formulation}
+
+\subsection{Extracting the Sentence Content by Assigning Semantic Labels to the SQL-Query Constituents}
+\label{sec:des:planning}
+
+\subsection{Deriving the Sentence Structure from the SQL-Query Structure}
+\label{sec:des:structuring}
+
+\subsection{Completing the Structured Sentence}
+\label{sec:des:surface}
+
+
+
+% \section{Task interaction}
+% \label{sec:des:interaction}
+
+% \subsection{Visual task arrangement}
+% \label{sec:des:arrangement}
+
+% \subsection{Interaction recording and replay}
+% \label{sec:des:record}

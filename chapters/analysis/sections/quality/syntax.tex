@@ -1,0 +1,8 @@
+The system shall generate SQL-queries that adhere to standard SQL syntax in general and specifically the \ac{DQL} subset of SQL \cite{iso_SQL_framework_pt2_2016, iso_SQL_framework_2016}.
+
+Due to the vast space of possibilities the \textit{SELECT}-command enables, the available keywords shall be further reduced to the subset defined in \ref{lst:sqlsubset}.
+
+As mentioned in \ref{sec:anal:parametrization}, the keywords \textit{SELECT} and \textit{FROM} are required to occur exactly once, with at least one argument each. Furthermore all non-aggregate columns referenced in the select list are to be specified as grouping columns.
+
+% the execution order needs to adhere to https://en.wikipedia.org/wiki/SQL_syntax#:~:text=The%20syntax%20of%20the%20SQL,different%20database%20systems%20without%20adjustments.
+

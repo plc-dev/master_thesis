@@ -1,0 +1,66 @@
+\chapter{Introduction}
+\label{ch:intro}
+
+\section{Motivation}
+\label{sec:intro:motivation}
+
+Students and professors are often confronted with a limited supply of available exercises, as creating new exercises is a time-consuming process. Some of these exercises are commonly used as teaching examples or solved together in practical courses, leaving students with little to no exercises for solidifying the underlying concepts in self study. This limited pool of exercises also concerns the construction of exams, often resulting in not publishing sample exams as to not disclose potential exam exercises. 
+
+Furthermore, existing exercises may be too difficult or too easy, or address only certain aspects of the task and thus fail to meet students at their current knowledge level \cite{Taufik2019AnIT}. In addition to the common lack, or insufficient detail of sample solutions and the limited availability of teaching staff to provide feedback regarding the subject, this may attribute to underperforming and less motivated students \cite{Gibson2021ImprovingSE}.
+
+An increasing number of studies has shown that the aforementioned issues also apply to SQL-query exercises, such as a lack of practice opportunities \cite{Miedema2022ExpertPO}, resignation in the case of unavailable feedback \cite{Miedema2022SoMB} and varying knowledge levels \cite{Silva2022DBSnapEvalID, Poulsen2020InsightsFS}. Furthermore, different error types have been examined, such as syntax errors, semantic errors and logic errors. 
+
+\cite{Taipalus2019WhatTE, Taipalus2020ExplainingCB, Poulsen2020InsightsFS} report that syntax errors are observed less than semantic and logic errors.
+\cite{Silva2022DBSnapEvalID, Miedema2022SoMB, Taipalus2019WhatTE, Miedema2021IdentifyingSM} on the other hand report the opposite, but all report that students are mostly able to fix syntax errors by themselves, whereas semantic and logic errors often lead to abandoning the query when no hints are given. In the case of semantic and logic errors, students are observed to transform their initial query into unnecessarily complex constructs by incremental changes with low word-based edit distances \cite{Miedema2022SoMB}. Students appear to struggle with queries including \textit{JOINs}, \textit{GROUP BY} statements and \textit{subqueries} the most \cite{Smelcer1995UserEI, Ahadi2016StudentsSM, Ahadi2015AQS, Miedema2022IdentifyingSM}
+
+
+\section{Aim and scope}
+\label{sec:intro:scope}
+
+This work aims 
+
+to enable time and location independent self-study, 
+alleviate time expenditure on creating, curating and mark exercises
+
+only DQL and specific subset
+
+not evaluating students perspective or effect on students
+
+integrating existing methods if applicable
+
+not evaluating effect of database complexity on sql query formulation \cite{Taipalus2020TheEO}
+
+best didactic teaching methods as shown in (eg preplanning, linking nl-tokens to sql concepts) or advances in display methods (games, etc) \cite{Taipalus2020SQLE, Ishaq2022AdvancesID}
+Study found that in order to more effectively teach query formulation, educators should emphasize natural language patterns, query planning, and increasingly ambiguous exercises \cite{Taipalus2020ExplainingCB}
+% https://www.semanticscholar.org/paper/SQLVis%3A-Visual-Query-Representations-for-Supporting-Miedema-Fletcher/d33bd27ccd8c854f4f6eca6726c243745a7207f0
+
+
+\section{Methodology}
+\label{sec:intro:methodology}
+
+RESEARCH GOAL
+The goal of this work is to develop a system for generating meaningful SQL-query exercises, to reduce the expenditure of time on creating, curating and marking said exercises manually and to enable students to self-study independent of time and location
+The remainder of this section will explain the research design and its reasoning, as well as methodical limitations and a concluding summary.
+
+RESEARCH DESIGN
+    As learning is a subjective matter not fully understood yet a pragmatical research philosophy was adopted to conduct this work. This is evident in the influence from personal experiences of learning and teaching subjects
+    
+    As most aspects of this area of research understudied a largely inductive approach to the research was taken, but reusing existing methods that are proven and adhere to the criteria required for this work
+    
+    The research strategy is action research in a semi controlled environment, as to infer practical usefulness of the generated queries. The evaluating contestants was curated to be familiar with SQL-queries.
+    
+    The data collection was done cross-sectional at one single point in time, due to money and time constraints and no immediate reflux of information into the used methods.
+    
+    The sampling of evaluators for the pre-study was done in a non-randomized way, to ensure an appropriate skill level as a control group. The main study was performed on randomized evaluators, although some selection criteria were applied to guarantee a basic understanding of the task.
+    
+    The data collection method is a mixture of a quantitative survey with some qualitative aspects when a discrete set of options was not deemed sufficient. The results are analysed as IRA and a more in depth qualitative analysis.
+    
+LIMITATIONS
+    time and money influence number of evaluators
+    
+    the effect of database compelxity on sql query formulation is not considered \cite{Taipalus2020TheEO}
+    
+    
+CONCLUSION
+    % https://gradcoach.com/how-to-write-the-methodology-chapter/
+    % https://gradcoach.com/saunders-research-onion/

@@ -1,0 +1,16 @@
+The generated SQL-query shall be semantically plausible regarding \textit{a)} the coherency of the combination of SQL-query-constituents and \textit{b)} the actual meaning of the query objective.
+
+The coherency of the query may be considered semantically plausible if: 
+
+\begin{enumerate}
+    \item it doesn't contain redundant constituents,  % group by - distinct
+    \item the combination of constituents doesn't contradict the explicit behaviour of one or more other constituents,            % left join with right constraints
+    \item every constituent effects the result set.     % left join + right join on n-m 
+\end{enumerate}
+
+The query objective may be considered semantically plausible if the query objective is deemed: 
+
+\begin{itemize}
+    \item physically feasible by a majority of evaluators,
+    \item to adhere to selectional preference in the context of the database schema by a majority of evaluators.
+\end{itemize}

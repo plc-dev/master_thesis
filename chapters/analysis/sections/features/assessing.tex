@@ -1,0 +1,7 @@
+For every emitted solution attempt, the system shall be able to assess whether the solution is correct and in case of an error produce a score and a hint.
+
+A solution attempt is defined as a syntactically correct SQL-query. In case of syntactical errors only the error message of the database system shall be propagated.
+
+The correctness of a solution is to be determined by matching the result set instead of the queries, as the projection of SQL-queries to result sets is surjective but not injective.
+
+In contrast, the score and hint generation is to be determined by measuring the distance between the solution attempt and the generated query, as almost identical queries can produce vastly different result sets.
